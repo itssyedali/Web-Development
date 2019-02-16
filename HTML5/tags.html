@@ -1,0 +1,191 @@
+<!DOCTYPE html>		
+<!-- Document type for HTML5 -->
+
+
+<html>
+<!-- html tag cover everything -->
+	<head>
+	<!-- contains meta-data, title and other thing needed for the browser-->
+		<title>HTML Cheat Sheet</title>
+		<!-- title contains title of the html page -->
+	</head>
+	<body>
+		<!-- Heading -->
+		<h1>Heading 1</h1>
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<h4>Heading 4</h4>
+		<h5>Heading 5</h5>
+		<h6>Heading 6</h6>
+
+		<!--Paragraph-->
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt <strong>ut labore et dolore</strong>
+		<!--bold--> magna aliqua. Ut enim ad minim veniam,
+		quis nostrud <em>exercitation ullamco</em><!--Italic--> laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt <a href="http://google.com" target="_blank">ut labore et</a>
+			<!-- a tag for linking-->
+			<!-- atrributes-->
+			<!--href for link reference-->
+			<!--Target=_blank for new tabs--> dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<br>
+		<hr>
+		<br>
+
+		<!-- Lists-->
+		<ul>	<!--unordered list -->
+			<li>List 1</li>
+			<li>List 2</li>
+			<li>List 3</li>
+			<li>List 4</li>
+			<li>List 5</li>
+		</ul>
+
+		<ol>	<!--ordered list -->
+			<li>List 1</li>
+			<li>List 2</li>
+			<li>List 3</li>
+			<li>List 4</li>
+			<li>List 5</li>
+		</ol>
+		<br>
+		<hr>
+		<br>
+		<!--table-->
+		<table>
+			<thead>	<!-- table heading-->
+				<tr>	<!--Table row-->
+					<th>Name</th><!-- row name-->
+					<th>Email</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+
+			<tbody>	<!--table body-->
+				<tr>	
+					<td>Syed</td>	<!-- Table description -->
+					<td>Syedali@gmail.com</td>
+					<td>20</td>
+				</tr>
+								
+				<tr>	
+					<td>Santhosh</td>
+					<td>Santhosh@gmail.com</td>
+					<td>20</td>
+				</tr>
+				<tr>	
+					<td>Ashok</td>
+					<td>ashok@gmail.com</td>
+					<td>20</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<br>	<!-- Line breaker -->
+		<hr>	<!-- Horizontal Line -->
+		<br>
+
+		<!--forms-->
+		<form action="process.php" method="POST">
+			<!-- action for server side working -->
+			<!--POST or GET methods used for form -->
+			<div>
+				<!-- block level elements, used to divide it into a block-->
+			<label>First Name</label> 
+			<!--guide for input-->
+			<input type="text" name="First-Name"> 
+			<!-- input: provide area for user -->
+			<!-- type: of input like text,area,password-->
+			<!-- name for varible in server or database-->
+			</div>
+			<br>
+			<div>
+				<label>Last Name</label>
+				<input type="text" name="Last-Name" placeholder="Enter Last Name"> 
+				<!-- guide for the blank space-->
+			</div>
+			<br>
+			<div>
+				<label>Last Name</label>
+				<input type="text" name="Last-Name"> 
+			</div>
+			<br>
+			<div>
+				<label>Email</label>
+				<input type="Email" name="Email">
+			</div>
+			<br>
+			<div>
+				<label>Message</label>
+				<textarea name="Message"></textarea>
+			</div>
+			<br>
+			<div>
+				<label>Gender</label>
+				<select name="Gender">
+					<option value="male">Male</option>
+					<option value="female">Female</option>
+					<option value="others">Others</option>
+				</select>
+			</div>
+			<br>
+			<div>
+				<label>Age</label>
+				<input type="number" name="age" value="30">
+				<!-- Value displays the value in the box-->
+			</div>
+			<br>
+			<div>
+				<label>Birthday</label>
+				<input type="date" name="Birthday">
+			</div>
+			<br>
+			<input type="submit" name="submit" value="submit">
+		</form>
+
+		<br>
+		<hr>
+		
+
+		<!-- button-->
+		<button>Click Me</button>
+
+		<br>
+		<hr>
+		<br>
+		<a href="Images/download.jpg"> <!-- opens image in browser -->
+			<!-- images-->
+			<img src="Images/download.jpg" alt="CR7" width="200">
+			<!-- src= location of image. Alt= when image cant be loaded this file can be used. width= 200px -->
+		</a>
+
+		<!-- Quotation -->
+		<blockquote cite="http://google.com">
+		<!-- indigate that this perticular quotation is from other source -->
+
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</blockquote>
+
+		<p>The <abbr title="World wide web">WWW</abbr> is awesome</p>
+		<!-- abbr= abbrivation -->
+
+		<a href="semanticTags.html">Go to Sementic tags</a>
+	</body>	
+</html>
